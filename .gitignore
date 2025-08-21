@@ -1,0 +1,53 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build outputs
+/dist/
+/build/
+
+# Environment files
+.env
+.env.local
+.env.testing
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache
+*.cache
+
+# Testing
+/coverage/
+.phpunit.result.cache
+
+# Composer
+composer.lock
+
+# Laravel
+bootstrap/cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Temporary files
+*.tmp
+*.temp

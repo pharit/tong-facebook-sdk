@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Facebook SDK Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
+    <coverage>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </coverage>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="FACEBOOK_APP_ID" value="test_app_id"/>
+        <env name="FACEBOOK_APP_SECRET" value="test_app_secret"/>
+        <env name="FACEBOOK_GRAPH_VERSION" value="v18.0"/>
+        <env name="FACEBOOK_REDIRECT_URI" value="http://localhost/callback"/>
+    </php>
+</phpunit>
