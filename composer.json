@@ -1,5 +1,5 @@
 {
-    "name": "tong/facebook-sdk",
+    "name": "pharit/tong-facebook-sdk",
     "description": "A comprehensive Facebook SDK API package for Laravel applications",
     "type": "library",
     "license": "MIT",
