@@ -28,7 +28,7 @@ A comprehensive Facebook SDK package for Laravel applications that provides easy
 1. **Install the package via Composer:**
 
 ```bash
-composer require tong/facebook-sdk
+composer require pharit/tong-facebook-sdk
 ```
 
 2. **Publish the configuration file:**
